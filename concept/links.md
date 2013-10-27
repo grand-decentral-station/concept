@@ -20,6 +20,7 @@ This document is a collection of links to all kinds of resources, which could be
 - http://www.trsst.com
 - https://tent.io
 - http://labs.bittorrent.com/experiments/sync.html
+- https://peercdn.com
 
 ## Hardware examples
 
