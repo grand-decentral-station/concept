@@ -1,6 +1,11 @@
 # Grand Decentral Station — Concept
 
-This is the public repository to write, extend and discuss the concept for Grand Decentral Station. You can find more about the current state of the idea on <http://decentralize.it>
+This is the public repository to write, extend and discuss the concept for Grand Decentral Station. 
+
+You can find more about the current state of the idea on <http://decentralize.it>
+
+Follow Grand Decentral on Twitter for updates: [@grand_decentral](http://twitter.com/grand_decentral)
+
 
 ## The idea
 
