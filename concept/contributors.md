@@ -18,3 +18,7 @@
 ## Lukas Epple
 <http://lukasepple.de>
 <http://twitter.com/lukasepple>
+
+## johannes Fürmann
+<http://weltraumpflege.org/~johannes>
+<http://twitter.com/waaaaargh>
