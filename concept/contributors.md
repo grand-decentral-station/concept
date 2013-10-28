@@ -11,3 +11,7 @@
 ## Lukas Bestle
 <http://lu-x.me/en>
 <http://twitter.com/vis7mac>
+
+## Tobias Tom
+<http://tobiastom.name>
+<http://twitter.com/tobiastom>
