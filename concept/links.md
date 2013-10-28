@@ -22,7 +22,7 @@ This document is a collection of links to all kinds of resources, which could be
 
 - http://www.trsst.com
 - https://tent.io
-- http://labs.bittorrent.com/experiments/sync.html
+- http://labs.bittorrent.com/experiments/sync.html (or an open source alternative like https://github.com/jewel/clearskies)
 - https://peercdn.com
 
 ## Hardware examples
