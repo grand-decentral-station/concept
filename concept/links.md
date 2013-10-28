@@ -6,6 +6,9 @@ This document is a collection of links to all kinds of resources, which could be
 
 - http://hood.ie
 
+## Frameworks
+- http://meteor.com
+
 ## Server
 
 - http://docker.io
@@ -14,6 +17,7 @@ This document is a collection of links to all kinds of resources, which could be
 ## Database
 
 - http://couchdb.apache.org
+- http://mongodb.org
 
 ## Communication between servers
 
