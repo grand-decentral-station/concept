@@ -12,7 +12,6 @@ This document is a collection of links to all kinds of resources, which could be
 ## Server
 
 - http://docker.io
-- http://www.vagrantup.com
 
 ## Database
 
