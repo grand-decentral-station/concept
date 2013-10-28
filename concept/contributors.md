@@ -23,3 +23,7 @@
 ## Johannes Fürmann
 - <http://weltraumpflege.org/~johannes>
 - <http://twitter.com/waaaaargh>
+
+## Konrad Fischer
+- <https://l3r.de>
+- <https://twitter.com/lx4r>
