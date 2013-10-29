@@ -27,6 +27,7 @@ This document is a collection of links to all kinds of resources, which could be
 - http://labs.bittorrent.com/experiments/sync.html (or an open source alternative like https://github.com/jewel/clearskies)
 - https://peercdn.com
 - https://github.com/natevw/PeerPouch
+- http://www.bittorrent.org/beps/bep_0003.html 
 
 ## Hardware examples
 
