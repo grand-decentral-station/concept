@@ -39,6 +39,7 @@ This document is a collection of links to all kinds of resources, which could be
 - http://sealedabstract.com/code/nsa-proof-your-e-mail-in-2-hours/ 
 - https://github.com/feross/webtorrent
 - https://arkos.io/
+- http://www.youtube.com/watch?v=G1QCBzQ0aNc - Aral Balkan's talk on Digital Feudalism
 
 ## Similar goals
 - http://decentralizer.com/ (thoughts from https://twitter.com/stevenf)
