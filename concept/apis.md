@@ -20,3 +20,14 @@ Provide administration features of GDS to the outside. Possible tools connected 
 - native remote applications (Windows, OS X, iOS, Android...) developed by third-party developers
 
 This API would only work via HTTPS and would require authentication.
+
+## Settings API
+
+An API for applications to announce settings for the administration API.  
+An application could first provide GDC with information about what settings exist, what valid values they can have and with descriptions in different languages using the settings API.
+
+These would then be exposed to the outside using the administration API so the user can actually change the settings commonly for all applications without needing to use tons of different tools for that.
+
+GDC remembers the current settings of each application and provides them back to the application using API endpoints of the settings API whenever the application needs them.
+
+It has yet to be decided which field types are required to represent every possible setting (most likely quite a lot!).
