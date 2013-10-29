@@ -78,3 +78,53 @@ There should be a shell providing all web interface features as a nice CLI.
 
 This is rather optional and not required at the beginning, but would be a nice feature for power users.
 
+## Discovery & uptime server
+
+This is an optional (= the user will have to install it) application used to build a network between Grand Decentral Stations.  
+The server itself works just like a DNS server: It builds an index of all known devices and syncs it from other discovery & uptime servers.
+
+A new GDS can get into this network by communicating once with at least one other GDS (for example when sharing something).  
+The other GDS (like *every* GDS even without a discovery & uptime server) has a list of some discovery & uptime servers (it will get to know them at the point when it communicates with them or when it gets pinged by one of them) and broadcasts the new information about the new GDS to some of them where the data is cached and can be retrieved by any GDS.
+
+The data collected about each GDS would be:
+
+- the URL pointing to the GDS
+- a list of "mentoring servers" (see below)
+
+This index is rebuilt every specific amount of time (for example every day) by pinging each GDS in the index.
+
+The admin of the discovery & uptime server could define shorter intervals for specific domains of friends etc.  
+If a GDS is down for more than a week or so, it gets removed from the index and the process starts from the beginning.
+
+### Uptime server
+
+A possible additional amazing feature made possible by this application is an uptime server notifying the admin of the GDS that his/her GDS is down.
+
+That's where the "mentoring servers" come into play:  
+If a user wants to enable the uptime monitoring functionality, he/she has to define a list of "mentoring servers" in the GDS administration panel. These are discovery & uptime servers hosted either by
+
+- friends *or*
+- dedicated fee-based monitoring services
+
+These mentoring servers would keep an alternative email address (at another GDS/VPS/shared hosting/Gmail/Hotmail/whatever) to contact the admin of the GDS if it is down.
+
+The process would be the following: When any discovery & uptime server finds out about a downtime of the GDS while rebuilding its index, it notifies a random different discovery & uptime server located at a different part of the world.
+
+If the different server can reproduce that the GDS is down, this chain continues 5 times. If the server is up from any of these servers, the chain stops and everything goes back to normal.  
+The fifth discovery & uptime server now pings one of the mentoring servers of the user (multiple if one is down) and tells it that the domain is down.
+
+The mentoring server then checks again and if it can also reproduce this, it sends an email (or whatever communication channel the mentoring server implements) to the alternative email address of the admin.  
+It then remembers that it sent that email and will refuse to send another one until the GDS was up in between.
+
+The mentoring servers are needed to
+
+- a) keep the email address secret to avoid spam
+- b) prevent tons of emails by tons of discovery & uptime servers
+
+### Motivation
+
+Of course, the motivation to install a discovery & uptime server might not be that high as it consumes a lot of traffic and computing power.
+
+A way to motivate people would be monetizing found downtimes by letting the admin of the tracked GDS define a budget for every email which would be divided among all involved servers.
+
+This would probably lead to people modifying the software to claim that *every* GDS is down to save resources. The only way to fix this is a large number of discovery & uptime servers - some of them will still confirm that the server is up. This would stop the chain and the cheaters wouldn't have success.
