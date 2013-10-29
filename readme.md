@@ -4,8 +4,9 @@ This is the public repository to write, extend and discuss the concept for Grand
 
 You can find more about the current state of the idea on <http://decentralize.it>
 
-Follow Grand Decentral on Twitter for updates: [@grand_decentral](http://twitter.com/grand_decentral)
-
+- Follow Grand Decentral on Twitter for updates: [@grand_decentral](http://twitter.com/grand_decentral)
+- Propose new ideas inside the [issues](https://github.com/grand-decentral-station/concept/issues)
+- Chat with us inside our IRC channel: [#decentralize](irc://freenode.net#decentralize) on Freenode
 
 ## The idea
 
