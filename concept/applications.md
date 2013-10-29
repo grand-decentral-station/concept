@@ -39,3 +39,9 @@ All apps run completely sandboxed and communicates over a simple JSON api with t
 ## App Store
 
 It should be decentralized as well, so there could be an "app server" app for GDC to host your own app repository. A user could then subscribe to that server using its URL and could browse, buy and download apps directly from there.
+
+## Intents
+
+There should be an Android-like intent system where any application can provide e.g. "calendar", "file-sync", "addressbook" and so on. The intent has a protocol that must be implemented which is specific to the various intents. 3rd party intents can also be provided, perhaps through some kind of central register over intents and their purposes.
+
+This is much more flexible than having a calendar app build in to the system itself. It's more flexible for the developers since we don't have to rely on a specific implementation of a calendar. And it's more flexible for the user, they can chose their own calendar app, instead of being forced to use the one that's built-in.
