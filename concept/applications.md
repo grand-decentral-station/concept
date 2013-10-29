@@ -30,6 +30,8 @@ A possible app.json could look similar to this:
 }
 ```
 
+Consider using an existing packaging format if any standards already exists. There's the Open Web App Manifest from FirefoxOS, that might be a good fit seeing it has mechanics for permissions in a sandbox. 
+
 ### Containers / Sandboxes
 
 Each GDS application is a "meta-container" with one or more containers which make up the application. Each app has a separate storage container, where all data is saved separately from the application. So you can switch – for example – the mail server component while your data stays untouched. This also helps with backups.
