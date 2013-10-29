@@ -13,6 +13,7 @@ This document is a collection of links to all kinds of resources, which could be
 
 - http://docker.io
 - https://flynn.io/
+- http://coreos.com/
 
 ## Database
 
