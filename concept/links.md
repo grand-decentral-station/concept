@@ -43,6 +43,7 @@ This document is a collection of links to all kinds of resources, which could be
 - https://arkos.io/
 - http://www.youtube.com/watch?v=G1QCBzQ0aNc - Aral Balkan's talk on Digital Feudalism
 - https://github.com/redecentralize/alternative-internet
+- https://github.com/al3x/sovereign
 
 ## Similar goals
 - http://decentralizer.com/ (thoughts from https://twitter.com/stevenf)
