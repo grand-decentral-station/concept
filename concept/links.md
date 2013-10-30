@@ -29,6 +29,7 @@ This document is a collection of links to all kinds of resources, which could be
 - https://peercdn.com
 - https://github.com/natevw/PeerPouch
 - http://www.bittorrent.org/beps/bep_0003.html 
+- http://sockethub.org/
 
 ## Hardware examples
 
