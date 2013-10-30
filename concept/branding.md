@@ -11,5 +11,5 @@ This is the very first draft for a possible Grand Decentral logo. I think Jochen
 ![Logo Draft for Grand Decentral](../assets/logo-draft-1.png)
 
 Credits: Jochen Illius
-<http://twitter.com/illepille>
-<http://github.com/jocill>
+- <http://twitter.com/illepille>
+- <http://github.com/jocill>
