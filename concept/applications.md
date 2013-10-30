@@ -38,6 +38,8 @@ Each GDS application is a "meta-container" with one or more containers which mak
 
 All apps run completely sandboxed and communicates over a simple JSON api with the GDS core (e.g. service name/type, URLs/ports for service endpoints, meta info, etc.)
 
+There are several problems with this described in [Issue #5](https://github.com/grand-decentral-station/concept/issues/5) and [Issue #23](https://github.com/grand-decentral-station/concept/issues/23) which have yet to be solved.
+
 ## App Store
 
 It should be decentralized as well, so there could be an "app server" app for GDC to host your own app repository. A user could then subscribe to that server using its URL and could browse, buy and download apps directly from there.

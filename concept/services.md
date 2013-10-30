@@ -114,7 +114,7 @@ If the different server can reproduce that the GDS is down, this chain continues
 The fifth discovery & uptime server now pings one of the mentoring servers of the user (multiple if one is down) and tells it that the domain is down.
 
 The mentoring server then checks again and if it can also reproduce this, it sends an email (or whatever communication channel the mentoring server implements) to the alternative email address of the admin.  
-It then remembers that it sent that email and will refuse to send another one until the GDS was up in between.
+It then remembers that it sent that email and will refuse to send another one until the GDS was up in between. The other mentoring servers will get a message about it as well to prevent multiple emails.
 
 The mentoring servers are needed to
 
@@ -128,3 +128,7 @@ Of course, the motivation to install a discovery & uptime server might not be th
 A way to motivate people would be monetizing found downtimes by letting the admin of the tracked GDS define a budget for every email which would be divided among all involved servers.
 
 This would probably lead to people modifying the software to claim that *every* GDS is down to save resources. The only way to fix this is a large number of discovery & uptime servers - some of them will still confirm that the server is up. This would stop the chain and the cheaters wouldn't have success.
+
+### More information
+
+There's a discussion in [Issue #24](https://github.com/grand-decentral-station/concept/issues/24) about this.
