@@ -28,4 +28,16 @@ To handle traffic to and from the device in case of no available static IP it sh
 
 ## 4. On a personal computer 
 
-It is thinkable that Grand Decentral Station could also be running as an application on your personal computer. The connectivity to the web would be limited to the uptime of your computer, but that could be compensated by additional concepts to share server power between friends in the network of Grand Decentral Stations, so your trusted friends would take over hosting parts of your services and vice versa. This is very much theoretical yet though. 
+It is thinkable that Grand Decentral Station could also be running as an application on your personal computer. The connectivity to the web would be limited to the uptime of your computer, but that could be compensated by additional concepts to share server power between friends in the network of Grand Decentral Stations, so your trusted friends would take over hosting parts of your services and vice versa. This is very much theoretical yet though.
+
+See [Issue #3](https://github.com/grand-decentral-station/concept/issues/3) for more thoughts about this idea.
+
+## 5. On a small dedicated box the user already has
+
+Other possible devices for GDS are:
+
+- "low end boxes", i.e. small VPSes with only a small amount of RAM.
+- Raspberry Pi's
+- just about anything capable of running a current Linux Kernel and a bit of Hard Drive Space.
+
+See [Issue #11](https://github.com/grand-decentral-station/concept/issues/11) for more thoughts about this.

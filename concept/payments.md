@@ -13,6 +13,7 @@ For each app, the developers can set the price in the manifest file (see App Pac
 
 ## Example payment setup in the app.json
 
+```
 {
 	…
 	payment: {
@@ -27,6 +28,7 @@ For each app, the developers can set the price in the manifest file (see App Pac
 		}
 	}
 }
+```
 
 Service setup is not yet clear. Developers should have a simple way to setup available payment services and configuration for them. (e.g. an email address for paypal)
 

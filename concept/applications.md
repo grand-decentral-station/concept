@@ -30,12 +30,22 @@ A possible app.json could look similar to this:
 }
 ```
 
+Consider using an existing packaging format if any standards already exists. There's the Open Web App Manifest from FirefoxOS, that might be a good fit seeing it has mechanics for permissions in a sandbox. 
+
 ### Containers / Sandboxes
 
 Each GDS application is a "meta-container" with one or more containers which make up the application. Each app has a separate storage container, where all data is saved separately from the application. So you can switch – for example – the mail server component while your data stays untouched. This also helps with backups.
 
 All apps run completely sandboxed and communicates over a simple JSON api with the GDS core (e.g. service name/type, URLs/ports for service endpoints, meta info, etc.)
 
+There are several problems with this described in [Issue #5](https://github.com/grand-decentral-station/concept/issues/5) and [Issue #23](https://github.com/grand-decentral-station/concept/issues/23) which have yet to be solved.
+
 ## App Store
 
 It should be decentralized as well, so there could be an "app server" app for GDC to host your own app repository. A user could then subscribe to that server using its URL and could browse, buy and download apps directly from there.
+
+## Intents
+
+There should be an Android-like intent system where any application can provide e.g. "calendar", "file-sync", "addressbook" and so on. The intent has a protocol that must be implemented which is specific to the various intents. 3rd party intents can also be provided, perhaps through some kind of central register over intents and their purposes.
+
+This is much more flexible than having a calendar app build in to the system itself. It's more flexible for the developers since we don't have to rely on a specific implementation of a calendar. And it's more flexible for the user, they can chose their own calendar app, instead of being forced to use the one that's built-in.
