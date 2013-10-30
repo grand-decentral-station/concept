@@ -31,3 +31,7 @@
 ## Heinrich Fenkart
 - <http://hnrch02.me>
 - <https://twitter.com/hnrch02>
+
+## Jan Oelze
+- <http://janoelze.de>
+- <https://twitter.com/janoelze>
