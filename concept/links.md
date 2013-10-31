@@ -49,3 +49,4 @@ This document is a collection of links to all kinds of resources, which could be
 
 ## Similar goals
 - http://decentralizer.com/ (thoughts from https://twitter.com/stevenf)
+- http://keybits.net/
