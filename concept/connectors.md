@@ -1,8 +1,8 @@
 # Connectors
 
-While the decentralized approach of providing services and applications should be the focus of this project, it's also important to provide connectors to existing services, even if they are data silos.
+While the decentralized approach of services and applications should be the focus of this project, it's also important to provide connectors to existing services, even if they are data silos.
 
-So Grand Central Station should also provide connectors to services like:
+So Grand Central Station should also contain connectors to:
 
 - Dropbox ([API](https://www.dropbox.com/developers))
 - Google Drive ([API](https://developers.google.com/drive/))
