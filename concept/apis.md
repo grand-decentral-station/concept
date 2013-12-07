@@ -56,3 +56,21 @@ These would then be exposed to the outside using the administration API so the u
 GDC remembers the current settings of each application and provides them back to the application using API endpoints of the settings API whenever the application needs them.
 
 It has yet to be decided which field types are required to represent every possible setting (most likely quite a lot!).
+
+## Scalability API
+
+This API provides a way to "outsource" functionality to other GDS instances owned by the same person/company.  
+The API would make it possible for small or even fairly large companies to
+
+- setup "fallback servers" if one server loses its internet connection or crashes
+- make the same data available from different locations around the world (faster access from the internal network)
+- make the data redundant
+- provide more computing power by scattering requests
+
+There could be an API for apps to
+
+- sync their data to the other servers
+- delegate specific tasks to other servers
+- ...
+
+Implementing this could be fairly difficult, we might need to have a closer look at the implementation by Synology (["Synology High Availability"](http://www.synology.com/en-us/dsm/business_data_safety_synology_high_availability)).
