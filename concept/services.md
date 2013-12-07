@@ -89,6 +89,7 @@ The other GDS (like *every* GDS even without a discovery & monitoring server) ha
 The data collected about each GDS would be:
 
 - the URL pointing to the GDS
+- the current status of the GDS (shut down, offline, running)
 - a list of "mentoring servers" (see below)
 
 This index is rebuilt every specific amount of time (for example every day at a random time) by pinging each GDS in the index.  
