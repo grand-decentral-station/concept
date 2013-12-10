@@ -47,7 +47,12 @@ This document is a collection of links to all kinds of resources, which could be
 - https://github.com/al3x/sovereign
 - http://garden20.com/
 - https://www.cozycloud.cc/ - CouchDB based suite of applications
+- http://unhosted.org
+- http://remotestorage.io
+- https://marketplace.firefox.com/
 
 ## Similar goals
 - http://decentralizer.com/ (thoughts from https://twitter.com/stevenf)
 - http://keybits.net/
+- http://ladistribution.net/
+- http://owncloud.org
