@@ -39,6 +39,8 @@ Bastian gave a more detailed talk about this at border:none in October 2013: <ht
 This concept is being released under the MIT license. 
 http://www.opensource.org/licenses/mit-license.php MIT License
 
+If you have a better idea for a more suitable license, please let me know: mail@bastianallgeier.com
+
 ## Contributors
 
 For a full list of contributors, check out the contributors.md. **Please add yourself!**
