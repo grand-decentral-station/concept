@@ -56,6 +56,14 @@ Allows storing/sharing of files. Either via NFS/SMB in an internal network (show
 
 Meta container for offering to host own websites and applications. It contains sub-containers for installing web-applications like blogs, forums, analytics, etc.
 
+As there will be multiple web apps listening on the same ports 80 and 443, there has to be a central server routing all requests to the correct app.  
+An example of a simple and slim router is [Pound](http://www.apsis.ch/pound/).
+
+Every app would be able to register a URL with a random port only listening locally.
+To host basic stuff, an additional "web server" package featuring a LAMP stack could be offered.
+
+An additional advantage of a central web router is the ability to store SSL certificates centrally in the system.
+
 ## Communications
 
 Chat services (based on XMPP) or video/screen sharing (via WebRTC)
