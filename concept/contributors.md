@@ -32,6 +32,6 @@
 - <http://hnrch02.me>
 - <https://twitter.com/hnrch02>
 
-## Nils Neumann
-- <https://twitter.com/DerZyklop>
-- <http://der-zyklop.de/>
+## Jan Oelze
+- <http://janoelze.de>
+- <https://twitter.com/janoelze>
