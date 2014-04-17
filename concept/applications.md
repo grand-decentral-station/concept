@@ -9,7 +9,7 @@ The system would install each app in a sandboxed environment. Docker.io could be
 Payments should be handled smoothly (see Payment integration)
 
 The installation process would be handled via git. By installing an app the installer mirrors the repository and analyzes its content, afterwards it installs the analyzed dependencies in a clean new environment, runs the test suite and sets up database connections, GDS api permissions etc. similar to other PaaS providers like Heroku.
-If wished the appstore could check every day for new commits and install the updates. All this would be handled behind a great UI with a simple one-click install process, the User would never be confronted with git or other technical terms.
+If wished the appstore could check every day for new tags and install the updates. All this would be handled behind a great UI with a simple one-click install process, the User would never be confronted with git or other technical terms.
 
 Removing apps would mean deleting the mirrored git repository, the used databases and other data storages. All triggered by a simple click on the Remove App button.
 Just Works.™
