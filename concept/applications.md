@@ -6,13 +6,17 @@ They system would take care of installing apps and keeping them up to date regul
 
 The system would install each app in a sandboxed environment. Docker.io could be a great basis for this. Each app can interact with other apps through APIs and for various interactions it would need the admission from the user. So malware wouldn't be able to destroy or access other parts of the system except content within the sandbox. 
 
-The installation process should be a simple one-click process compared to the installation of applications on Android or iOS. Payments should be handled smoothly (see Payment integration)
+Payments should be handled smoothly (see Payment integration)
 
-Removing apps should be as simple as installing them.
+The installation process would be handled via git. By installing an app the installer mirrors the repository and analyzes its content, afterwards it installs the analyzed dependencies in a clean new environment, runs the test suite and sets up database connections, GDS api permissions etc. similar to other PaaS providers like Heroku.
+If wished the appstore could check every day for new tags and install the updates. All this would be handled behind a great UI with a simple one-click install process, the User would never be confronted with git or other technical terms.
+
+Removing apps would mean deleting the mirrored git repository, the used databases and other data storages. All triggered by a simple click on the Remove App button.
+Just Works.™
 
 ## Packaging
 
-All files for an app would be wrapped in a zip file. A app.json file would contain all the necessary information about the app that would be available for the system. 
+All files for an app would be wrapped in a git repository. A app.json file would contain all the necessary information about the app that would be available for the system.
 
 A possible app.json could look similar to this: 
 
@@ -23,20 +27,19 @@ A possible app.json could look similar to this:
     "version": "1.0",
     "author": "MacGyver",
     "url": "http://getbirdyapp.com",
-    "source" : "http://getbirdyapp.com/source.zip",
+		"repository": "https://mygit.com/MacGyver/birdapp.git",
     "icon" : "assets/images/birdy-icon.svg",
     "screenshots" : "assets/screenshots",
     "price" : "$4.99"
 }
 ```
 
-Consider using an existing packaging format if any standards already exists. There's the Open Web App Manifest from FirefoxOS, that might be a good fit seeing it has mechanics for permissions in a sandbox. 
 
 ### Containers / Sandboxes
 
 Each GDS application is a "meta-container" with one or more containers which make up the application. Each app has a separate storage container, where all data is saved separately from the application. So you can switch – for example – the mail server component while your data stays untouched. This also helps with backups.
 
-All apps run completely sandboxed and communicates over a simple JSON api with the GDS core (e.g. service name/type, URLs/ports for service endpoints, meta info, etc.)
+All apps run completely sandboxed and communicate over a simple JSON api with the GDS core (e.g. service name/type, URLs/ports for service endpoints, meta info, etc.)
 
 There are several problems with this described in [Issue #5](https://github.com/grand-decentral-station/concept/issues/5) and [Issue #23](https://github.com/grand-decentral-station/concept/issues/23) which have yet to be solved.
 
