@@ -14,6 +14,15 @@ If wished the appstore could check every day for new tags and install the update
 Removing apps would mean deleting the mirrored git repository, the used databases and other data storages. All triggered by a simple click on the Remove App button.
 Just Works.™
 
+## Platform
+
+That being said, it's important to keep in mind, that the GDS is not a developers private PaaS playground. Most people will not run their GDS on the latest hardware, so resources should be used carefully.
+Therefore the GDS should provide an already installed stack to develop applications.
+This provided stack could follow a no-backend philosophy like Hood.ie. 
+By doing so front-end developers would be elated to develop apps without knowing everything about databases, caching, email server implementation, etc. 
+
+Of course there are apps that don't fit well into a no-backend philosophy because of their dependencies or complexity. These apps could still use their own self chosen stack. The GDS platform should not force anybody to develop in a specific language or framework, but encourage the use of the provided infrastructure.
+
 ## Packaging
 
 All files for an app would be wrapped in a git repository. A app.json file would contain all the necessary information about the app that would be available for the system.
