@@ -16,6 +16,14 @@ This document is a collection of links to all kinds of resources, which could be
 - http://coreos.com/
 - https://www.openshift.com/
 
+## API Design & Tools
+- http://apiary.io
+- http://www.youtube.com/watch?v=RfueDq8-Wwg
+
+## Great API Examples
+- http://www.mailgun.com
+- https://stripe.com/docs/api
+
 ## Database
 
 - http://couchdb.apache.org
