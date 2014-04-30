@@ -10,7 +10,7 @@
 
 ## Lukas Bestle
 - <http://lu-x.me/en>
-- <http://twitter.com/vis7mac>
+- <http://twitter.com/lukasbestle>
 
 ## Tobias Tom
 - <http://tobiastom.name>
