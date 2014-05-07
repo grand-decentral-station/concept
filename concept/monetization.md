@@ -1,29 +1,18 @@
 # Monetization
 
-## Possible business models
+The monetization is not a key point of the concept or GDS it self. GDS is fully
+prescribe to the open source spirit. The here described revenue models are ways
+to support GDS and not personal profit. Developing a competitive alternative to
+existing solutions is a tonne of work. A possible purpose for the made revenue
+could be to pay designated developers or external security audits.
 
-This project could either be supported by crowd funding, sponsoring of initial hosting providers or with angel investor capital. The crowd funding approach fits best to the open character of the project. 
 
-Once this has launched, collaboration with hosting providers and selling enterprise-level versions of the software could be possible business models. 
+## Possible revenue models
 
-Donations or voluntary contributions from app developers with paid apps would be additional ideas to explore. 
-
-## Possible markets
-
-I believe that such a concept can only work if there are realistic business models that could follow such an idea or profit from it. 
-
-### Developers & Designers
-
-…
-
-### Hosting providers
-
-…
-
-### Hardware manufacturers
-
-…
-
-### Dynamic IP Services
-
-…
+* crowd funding (best fit for the open character of the project)
+* selling enterprise support
+* selling hosting
+* selling GDS modules/carriages
+* selling support infrastructure (domains, backup space, ...)
+* selling branding (GDS compatible badge)
+* donations
