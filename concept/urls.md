@@ -1,72 +1,54 @@
 # URLs
 
-This document is intended as an overview of all URL schemes for services and applications. Those schemes should also be mentioned in other documents, but this list can help to keep structure them. 
+This document is intended as an overview of all URL schemes used in GDS.
 
-## Domain Placeholder
 
-All examples use "yourdomain.tld" as a placeholder.
+## Station domain
 
-## Encryption
+All stations in GDS have a unique generic domain used for identification. The
+station domain helps to organize the decentralization aspect of GDS. This way a
+user can order GDS to move all of his data from one machine/provider to another.
 
-All requests with GDS should be SSL encrypted. Maybe this should even be a must and the system should help assist to purchase and setup a certificate. 
+```
+vs12.lukeskywalker.de
+home.lukeskywalker.de
+```
 
-## General URL Scheme
 
-### Single User per domain
+## User domain
 
-{app}.yourdomain.tld/{path}
+All users in GDS have there own custom domain as a entry point. In order not to
+conflict with existing infrastructure, GDS is supposed to be used on a
+subdomain. This way for example a user with a pre-existing homepage can add GDS
+without problems and it allows for two scenarios.
 
-### Multiple Users per domain
 
-{app}.{username}.yourdomain.tld/{path}
+### Single User Domain
 
-## Grand Decentral Panel
+The user has it's own top level domain for GD.
 
-home.yourdomain.tld
+```
+gd.lukeskywalker.com
+```
 
-### Possible alternatives
 
-- admin
-- config
-- panel
+### Multi User Domain
 
-## Avatar Server
+Multiple users share one top level domain for GDS.
 
-avatar.yourdomain.tld
-avatar.yourdomain.tld/{width}x{height}
+```
+luke.provider.com
+leia.provider.com
+han.provider.com
+```
 
-## vCard Server
 
-vcard.yourdomain.tld
+## Path structure
 
-## Email Server
+After the domain all GD modules/carriages and its core are encoded in paths.
+If have a mail applications installed all its functionality would be acceptable
+under ```gds.lukeskywalker.com/mail/<*>```.
 
-### Interface
-
-mail.yourdomain.tld
-
-### IMAP
-
-imap.yourdomain.tld
-
-### SMTP
-
-smtp.yourdomain.tld
-
-## Calendar
-
-calendar.yourdomain.tld
-
-## Contacts
-
-contacts.yourdomain.tld
-
-## Files
-
-files.yourdomain.tld
-
-## Assets Server
-
-assets.yourdomain.tld
-assets.yourdomain.tld/core/…
-assets.yourdomain.tld/{app}/…
+```
+gds.lukeskywalker.com/<path>
+```
