@@ -45,12 +45,14 @@ and inspiring in the process of building Grand Decentral.
 ## API Design & Tools
 - http://apiary.io
 - http://www.youtube.com/watch?v=RfueDq8-Wwg
+- https://www.youtube.com/watch?v=R8SIxZVaai4
 
 
 ## Great API Examples
 
 - http://www.mailgun.com
 - https://stripe.com/docs/api
+- https://developers.app.net/docs/
 
 
 ## Database
