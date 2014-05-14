@@ -13,6 +13,6 @@ could be to pay designated developers or external security audits.
 * selling enterprise support
 * selling hosting
 * selling GDS modules/carriages
-* selling support infrastructure (domains, nameserver, backup space, ...)
+* selling support infrastructure (domains, ssl certificates, nameserver, backup space, ...)
 * selling certification (GDS compatible badge)
 * donations
