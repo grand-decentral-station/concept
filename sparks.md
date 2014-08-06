@@ -48,7 +48,7 @@ and inspiring in the process of building Grand Decentral.
 - https://www.youtube.com/watch?v=R8SIxZVaai4
 
 
-## Great API Examples
+## API Examples
 
 - http://www.mailgun.com
 - https://stripe.com/docs/api
@@ -76,3 +76,6 @@ and inspiring in the process of building Grand Decentral.
 
 - http://www.protonet.info
 - http://filetransporter.com
+
+## Things to consider
+- https://medium.com/p/63366b55f58c
